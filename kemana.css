@@ -32,7 +32,7 @@ p{
 .navbar-default .navbar-nav > li > a:focus {
 	color: black;
 	text-decoration: none;
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 	padding-bottom: 8px;
 	color: black;
 	float: right;
@@ -42,7 +42,7 @@ p{
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	background-color: #ffffff;
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 	padding-bottom: 8px;
 	color: black;
 	margin-right: auto;
@@ -65,6 +65,12 @@ p{
     color: #ffffff;
     background-color: #ffffff;
   }
+}
+
+
+.navbar-brand{
+	position: absolute;
+	left: 50px;
 }
 .col-md-4{
 	padding-left:40px;
