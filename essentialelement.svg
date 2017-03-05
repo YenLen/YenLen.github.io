@@ -14,21 +14,13 @@
             <rect x="106.275828" y="56.6486486" width="252.556175" height="227.203775" fill="white"></rect>
             <use xlink:href="#path-3" fill="black"></use>
         </mask>
-        <rect id="path-5" x="0" y="0" width="316.903226" height="234.268008" rx="22"></rect>
-        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="316.903226" height="234.268008" fill="white">
+        <rect id="path-5" x="20.6451613" y="20.6144068" width="276.0553" height="193.186441" rx="8"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="276.0553" height="193.186441" fill="white">
             <use xlink:href="#path-5"></use>
         </mask>
-        <rect id="path-7" x="20.6451613" y="20.6144068" width="276.0553" height="193.186441" rx="8"></rect>
-        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="276.0553" height="193.186441" fill="white">
+        <path d="M0.0196125249,63.9903813 C-0.545559148,51.8454291 11.1735478,42 26.1879652,42 L118.888023,42 C133.905577,42 145.621792,51.8401639 145.056376,63.9903813 L136.120661,256.009619 C135.555489,268.154571 124.738555,278 111.966322,278 L33.1096661,278 C20.334765,278 9.52074438,268.159836 8.95532769,256.009619 L0.0196125249,63.9903813 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="145.07601" height="236" fill="white">
             <use xlink:href="#path-7"></use>
-        </mask>
-        <rect id="path-9" x="229.013825" y="84.8135593" width="122.986175" height="193.186441" rx="22"></rect>
-        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="122.986175" height="193.186441" fill="white">
-            <use xlink:href="#path-9"></use>
-        </mask>
-        <path d="M0.0196125249,63.9903813 C-0.545559148,51.8454291 11.1735478,42 26.1879652,42 L118.888023,42 C133.905577,42 145.621792,51.8401639 145.056376,63.9903813 L136.120661,256.009619 C135.555489,268.154571 124.738555,278 111.966322,278 L33.1096661,278 C20.334765,278 9.52074438,268.159836 8.95532769,256.009619 L0.0196125249,63.9903813 Z" id="path-11"></path>
-        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="145.07601" height="236" fill="white">
-            <use xlink:href="#path-11"></use>
         </mask>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -45,18 +37,18 @@
             </g>
             <g id="Group" transform="translate(544.000000, 205.000000)">
                 <rect id="Rectangle-2" fill="#BBDFFA" x="75.5023041" y="258.416314" width="174.746544" height="13.1048729" rx="6.55243644"></rect>
-                <use id="Rectangle-19-Copy" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="20" fill="#BBDFFA" xlink:href="#path-5"></use>
-                <use id="Rectangle-19-Copy-2" stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="20" fill="#EEFAFD" xlink:href="#path-7"></use>
+                <rect id="Rectangle-19-Copy" fill="#BBDFFA" x="0" y="0" width="316.903226" height="234.268008" rx="22"></rect>
+                <use id="Rectangle-19-Copy-2" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="20" fill="#EEFAFD" xlink:href="#path-5"></use>
                 <rect id="Rectangle" fill="#BBDFFA" x="141.419355" y="222.930085" width="42.764977" height="41.9650424"></rect>
-                <use id="Rectangle-19" stroke="#FFFFFF" mask="url(#mask-10)" stroke-width="20" fill="#BBDFFA" xlink:href="#path-9"></use>
+                <rect id="Rectangle-19" stroke="#FFFFFF" stroke-width="10" fill="#BBDFFA" x="229.013825" y="84.8135593" width="122.986175" height="193.186441" rx="22"></rect>
                 <rect id="Rectangle-19" fill="#EEFAFD" x="242.875576" y="107.047669" width="95.3364055" height="142.82839" rx="8"></rect>
-                <ellipse id="Oval" fill="#EEFAFD" cx="290.865319" cy="258.439026" rx="6.30888881" ry="6.29949064"></ellipse>
+                <ellipse id="Oval" fill="#EEFAFD" cx="290.865319" cy="261.439026" rx="6.30888881" ry="6.29949064"></ellipse>
                 <rect id="Rectangle-3" fill="#EEFAFD" x="269.124424" y="98.6277556" width="42.9124424" height="4.41737288" rx="2.20868644"></rect>
                 <rect id="Rectangle-3-Copy" fill="#EEFAFD" x="316.75576" y="98.6277556" width="4.42396313" height="4.41737288" rx="2.20868644"></rect>
             </g>
             <g id="Group-4" transform="translate(1037.000000, 169.000000)">
                 <g id="Group-3">
-                    <use id="Rectangle-20" stroke="#FFFFFF" mask="url(#mask-12)" stroke-width="20" fill="#BBDFFA" xlink:href="#path-11"></use>
+                    <use id="Rectangle-20" stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="20" fill="#BBDFFA" xlink:href="#path-7"></use>
                     <ellipse id="Oval-10-Copy-3" fill="#FFFFFF" cx="77.5" cy="243.503255" rx="7.5" ry="7.50325489"></ellipse>
                     <ellipse id="Oval-10-Copy-11" fill="#FFFFFF" cx="112.5" cy="241.503255" rx="7.5" ry="7.50325489"></ellipse>
                     <ellipse id="Oval-10-Copy-8" fill="#FFFFFF" cx="57.5952381" cy="186.773351" rx="7.5" ry="7.50325489"></ellipse>
@@ -76,8 +68,8 @@
                     <path d="M95.4981127,131.216827 C107.213244,131.216827 116.710234,121.729849 116.710234,110.027068 C116.710234,98.3242874 107.213244,88.8373091 95.4981127,88.8373091 L95.4981127,131.216827 Z" id="Oval-10-Copy-2" fill="#EEFAFD" transform="translate(106.104173, 110.027068) scale(-1, 1) rotate(26.000000) translate(-106.104173, -110.027068) "></path>
                 </g>
             </g>
-            <text id="Essential-element-fo" font-family="Roboto-Medium, Roboto" font-size="32" font-weight="400" fill="#4C4C4C">
-                <tspan x="487" y="117">Essential element for Hackathon</tspan>
+            <text id="Essential-elements-f" font-family="Roboto-Medium, Roboto" font-size="32" font-weight="400" fill="#4C4C4C">
+                <tspan x="479" y="117">Essential elements for Hackathon</tspan>
             </text>
         </g>
     </g>
