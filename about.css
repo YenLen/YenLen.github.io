@@ -65,6 +65,11 @@ p{
 }
 
 
+@media screen and (max-device-width: 480px) {
+	.col-md-8{
+		padding: 0px;
+	}
+}
 .navbar-brand{
 	position: absolute;
 	left: 50px;
