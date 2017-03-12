@@ -82,10 +82,6 @@ p{
 	    top: 0;
 	    left: 0;
    }
-   .col-md-8{
-  	padding: 20px;
-  	padding-top: 100px
-   }
 }
 
 
@@ -114,5 +110,13 @@ p{
 	margin: auto;
 	display: block;
 	padding-bottom: 120px;
+}
+
+/*mobile版的內容位置調整*/
+@media (max-width: 767px){
+  .col-md-8{
+	  padding: 20px;
+	  padding-top: 100px
+  }
 }
 

@@ -146,4 +146,11 @@ iframe{
 }
 
 
+/*mobile版的內容位置調整*/
+@media (max-width: 767px){
+  .col-md-8{
+	  padding: 20px;
+	  padding-top: 100px
+  }
+}
 
