@@ -63,9 +63,8 @@ p{
     background-color: #ffffff;
   }
 }
-@media only screen
-    and (max-width : 320px){
-    	.col-md-8{
+@media(max-width: 767px) {
+    .col-md-4 .col-md-8{
 		padding: 0px;
 	}
 
