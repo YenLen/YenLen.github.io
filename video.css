@@ -110,7 +110,6 @@ iframe{
 	display: block;
 	margin-top: 10px;
 	margin-bottom: 120px;
-	padding-bottom: 20px;
 }
 
 /*調整影片在手機上顯示的大小*/
@@ -135,14 +134,14 @@ iframe{
 	    left: 0;
 	    width: 100%;
 	    height: 100%;
+	    margin-bottom: 60px;
 	}
 
 	.gallery-image {
 	    margin: auto;
 	    display: block;
 	    padding:0px;
-	    padding-bottom: 30px;
-	    
+	    margin-bottom: 30px;
 	}
 }
 
