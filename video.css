@@ -110,8 +110,9 @@ iframe{
 	display: block;
 	margin-top: 10px;
 	margin-bottom: 120px;
-
 }
+
+/*調整影片在手機上顯示的大小*/
 @media(max-width: 767px){
 	.videowrapper {
 	    float: none;
@@ -122,12 +123,25 @@ iframe{
 	    padding-top: 25px;
 	    height: 0;
 	}
+	.videowrapper img {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	}
 	.videowrapper iframe {
 	    position: absolute;
 	    top: 0;
 	    left: 0;
 	    width: 100%;
 	    height: 100%;
+	}
+
+	.gallery-image {
+	    margin: auto;
+	    display: block;
+	    padding:0px;
+	    padding-bottom: 30px;
+	    
 	}
 }
 

@@ -47,6 +47,7 @@ p{
 }
 
 
+/*調整影片在手機上顯示的大小*/
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
@@ -61,6 +62,20 @@ p{
     color: #ffffff;
     background-color: #ffffff;
   }
+  .videowrapper {
+	    float: none;
+	    clear: both;
+	    width: 100%;
+	    position: relative;
+	    padding-bottom: 56.25%;
+	    padding-top: 25px;
+	    height: 0;
+	}
+   .videowrapper img {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+   }
 }
 
 
