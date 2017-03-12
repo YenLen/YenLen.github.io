@@ -17,6 +17,15 @@ p{
     
 }
 
+.col-md-4{
+	padding-left:40px;
+	padding-top: 100px;
+}
+
+.col-md-8{
+	padding: 100px;
+}
+
 .navbar-default {
   background-color: #ffffff;
   border-color: #ffffff;
@@ -69,14 +78,7 @@ p{
 	position: absolute;
 	left: 50px;
 }
-.col-md-4{
-	padding-left:40px;
-	padding-top: 100px;
-}
-.col-md-8{
-	padding: 100px;
 
-}
 .work-detail{
 	color: rgba(51,51,51,.8);
 	padding-top: 50px ;
@@ -161,7 +163,21 @@ ul .social-buttons {
     text-align: center;
 }
 
-
+/*mobile版的內容位置調整*/
+@media (max-width: 767px){
+  .col-md-8{
+  padding: 20px;
+  padding-top: 100px
+  }
+  .col-md-4{
+	padding:20px;
+  }
+  .work-detail img {
+  padding: 0px;
+  display: block;
+  margin: auto;
+  }
+}
 
 /*Animation area*/
 

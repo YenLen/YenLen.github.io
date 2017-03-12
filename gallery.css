@@ -22,6 +22,12 @@ p{
   border-color: #ffffff;
 }
 
+.col-md-8{
+	padding: 100px;
+}
+.col-md-4{
+	padding:0px;
+}
 
 .navbar-default .navbar-nav > li > a {
 	color: black;
@@ -76,20 +82,16 @@ p{
 	    top: 0;
 	    left: 0;
    }
+   .col-md-8{
+  	padding: 20px;
+  	padding-top: 100px
+   }
 }
 
 
 .navbar-brand{
 	position: absolute;
 	left: 50px;
-}
-
-
-.col-md-8{
-	padding: 100px;
-}
-.col-md-4{
-	padding:0px;
 }
 
 .work-detail{

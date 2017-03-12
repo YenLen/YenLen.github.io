@@ -171,3 +171,21 @@ p{
 }
 /*Animation area*/
 
+
+/*mobile版的內容位置調整*/
+@media (max-width: 767px){
+  .col-md-8{
+  padding: 20px;
+  padding-top: 100px
+  }
+  .col-md-4{
+	padding:20px;
+  }
+  .work-detail img {
+  padding: 0px;
+  padding-bottom: 30px;
+  display: block;
+  margin: auto;
+  }
+}
+
