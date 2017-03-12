@@ -112,4 +112,12 @@ iframe{
 	margin-bottom: 120px;
 
 }
+@media screen
+    and (max-width : 320px){
+    	iframe{
+	padding:0px;
+	width: 100%;
+    height: auto;
+}
+}
 
