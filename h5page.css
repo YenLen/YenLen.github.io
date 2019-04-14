@@ -1,0 +1,202 @@
+body{
+	position: relative;
+	font-family:  sans-serif ;
+	background-color: white;
+	letter-spacing: 1px;
+}
+
+
+p{
+	
+	margin-bottom: 1.6em;
+	display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.col-md-8{
+	padding: 100px;
+}
+.col-md-4{
+	padding:0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	padding-top: 20px;
+	float: right;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #7B7B7B;
+	text-decoration: none;
+	padding-bottom: 8px;
+	float: right;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: #ffffff;
+	padding-bottom: 8px;
+	color: black;
+	margin-right: auto;
+	float: right;
+}
+
+
+/*調整影片在手機上顯示的大小*/
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #ffffff;
+  }
+  .videowrapper {
+	    float: none;
+	    clear: both;
+	    width: 100%;
+	    position: relative;
+	    padding-bottom: 56.25%;
+	    padding-top: 25px;
+	    height: 0;
+	}
+   .videowrapper img {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+   }
+}
+
+
+.navbar-brand{
+	position: absolute;
+	left: 50px;
+}
+
+.work-detail{
+	color: rgba(51,51,51,.8);
+	line-height: 24px;
+
+}
+
+.work-detail p{
+	font-size: 24px;
+}
+
+
+.work-detail span{
+	font-weight: bold;
+}
+
+
+.gallery-image{
+	margin: auto;
+	display: block;
+	padding-bottom: 120px;
+}
+
+/*mobile版的內容位置調整*/
+@media (max-width: 767px){
+  .col-md-8{
+	  padding: 20px;
+	  padding-top: 100px
+  }
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
