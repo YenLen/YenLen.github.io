@@ -86,7 +86,8 @@ p{
 }
 
 .work-detail span{
-	font-weight: bold;
+	font-weight: 550;
+	font-size: 18px
 }
 
 .work-detail p{
