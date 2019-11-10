@@ -15,6 +15,9 @@ p{
     -webkit-margin-end: 0px;
     
 }
+span{
+	font-weight: bold;
+}
 
 .navbar-default {
 	background-color: #ffffff;
