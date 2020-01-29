@@ -71,10 +71,13 @@ p{
 }
 .col-md-4{
 	padding-left:40px;
-	padding-top: 100px;
+	padding-top: 123px;
 }
 .col-md-8{
-	padding: 100px;
+	padding-left: 100px;	
+	padding-right: 100px;
+	padding-bottom: 40px;
+	padding-top: 100px;
 
 }
 .work-detail{

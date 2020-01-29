@@ -24,12 +24,7 @@ p{
 
 
 
-.col-md-8{
-	padding: 100px;
-}
-.col-md-4{
-	padding:0px;
-}
+
 
 .navbar-default .navbar-nav > li > a {
 	color: black;
@@ -86,6 +81,12 @@ p{
    }
 }
 
+.col-md-8{
+	padding: 100px;
+}
+.col-md-4{
+	padding:0px;
+}
 
 .navbar-brand{
 	position: absolute;
